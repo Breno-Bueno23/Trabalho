@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <style>
+        * {
+            font-family: "Poppins", system-ui;
+        }
+
+        a {
+          color: black;
+        }
+
+        .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(59, 59, 209);
+        text-decoration-thickness: 3px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand font-weight-bold" style="font-size: x-large; color: rgb(59, 59, 209)" href="index.html">Carreira+</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link font-weight-bold" style="font-size: larger;" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle font-weight-bold" style="font-size: larger;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Navegação
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="form.html">Agendar Reunião</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="depo.html">Depoimentos</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <h1 class="text-center font-weight-bold" style="padding-top: 3rem;"><span class="text-primary">Agende uma reunião com os nossos profissionais</span></h1>
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="col-12 col-md-5" style="padding-top: 3.2rem;">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Nome da sua empresa:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ex: Carreira+">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Digite o seu nome completo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ex: Breno">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Sexo:</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                  <option value="" disabled selected>Selecione</option>
+                  <option>Masculino</option>
+                  <option>Feminino</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Gênero:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Qual o segmento da sua empresa?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option value="" disabled selected>Selecione o segmento</option>
+                    <option>Indústria</option>
+                    <option>Educação</option>
+                    <option>Negócios Digitais</option>
+                    <option>Alimentação</option>
+                    <option>Tecnologia</option>
+                    <option>Logística</option>
+                    <option>Supermercado</option>
+                    <option>Outro...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">E-mail corporativo:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex: carreira@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Cidade:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ex: Lins">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Estado:</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option value="" disabled selected>Selecione o Estado</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Minas Gerais</option>
+                <option>Bahia</option>
+                <option>Rio Grande do Sul</option>
+                <option>Santa Catarina</option>
+                <option>Espírito Santo</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">O que você deseja com a nossa ajuda?</label>
+                <textarea class="form-control" style="resize: none;" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <a class="btn btn-primary btn-lg" style="width: 14rem; height: 3.3rem; display: flex; align-items: center; justify-content: center;" href="form.html" role="button">Agendar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-7" style="padding-top: 6rem;">
+        <p class="font-weight-bold" style="font-size: x-large; color: rgb(59, 59, 209); font-size: 30px;">Carreira+</p>
+        <p style="font-size: 20px;">Consultoria Profissional</p>
+        <p style="font-size: 15px">Foco em ajudar pessoas a organizarem suas empresas</p>
+      </div>
+      <div class="col-5" style="padding-top: 6rem;">
+        <i class="fa-brands fa-facebook fa-3x" style="color: blue;"></i>
+        <i class="fa-brands fa-instagram fa-3x" style="padding-left: 0.8rem;"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center" style="padding-top: 3rem; height: 5rem;">
+        <a style="font-size: 16px;" href="privacidade.html">Política de Privacidade</a>
+        <p style="font-size: 18px;">2025. Todos os direitos reservados</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <style>
+        * {
+            font-family: "Poppins", system-ui;
+        }
+
+        a {
+            color: black;
+        }
+
+        .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(59, 59, 209);
+        text-decoration-thickness: 3px;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand font-weight-bold" style="font-size: x-large; color: rgb(59, 59, 209)" href="index.html">Carreira+</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link font-weight-bold" style="font-size: larger;" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle font-weight-bold" style="font-size: larger;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Navegação
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="form.html">Agendar Reunião</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="depo.html">Depoimentos</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="text-center font-weight-bold" style="padding-top: 3rem;"><span class="text-primary">Veja os depoimentos dos nossos clientes</span></h1>
+      
+      <div class="container">
+        <div class="row d-flex justify-content-around align-items-center" style="padding-top: 5rem;">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="card" style="width: 18rem; height: 27rem;">
+                    <div class="card-header">
+                        <p class="font-weight-bold" style="font-size: 20px;">Rafael Da Silva, Analista de Marketing</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            5 <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="font-weight-bold" style="font-size: 18px">Serviço essencial para o crescimento</p>
+                            <p class="font-weight-bold" style="font-size: 15px;">Eu sempre tive o sonho de empreender, mas não sabia por onde começar. A Carreira+ me deu todo o suporte necessário para transformar minha ideia em um negócio de sucesso. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="card" style="width: 18rem; height: 27rem;">
+                    <div class="card-header">
+                        <p class="font-weight-bold" style="font-size: 20px;">Ana Maria, Empreendedora</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            5 <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="font-weight-bold" style="font-size: 18px">Excelente consultoria profissional</p>
+                            <p class="font-weight-bold" style="font-size: 15px;">A Carreira+ me ajudou a identificar meus pontos fortes e fracos, e a desenvolver as habilidades necessárias para alcançar meus objetivos. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row d-flex justify-content-around align-items-center" style="padding-top: 5rem;">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="card" style="width: 18rem; height: 31rem;">
+                    <div class="card-header">
+                        <p class="font-weight-bold" style="font-size: 20px;">Diego Santos, Consultora de Vendas</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            5 <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="font-weight-bold" style="font-size: 18px">Consultora Excelente e Atenciosa</p>
+                            <p class="font-weight-bold" style="font-size: 15px;">Sempre tive ideias inovadoras, mas não sabia como colocá-las em prática. A Carreira+ me ajudou a estruturar meu plano de negócios, a encontrar investidores e a lançar minha startup. Hoje, minha empresa é um sucesso e eu sou muito grato por toda a ajuda que recebi. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="card" style="width: 18rem; height: 31rem;">
+                    <div class="card-header">
+                        <p class="font-weight-bold" style="font-size: 20px;">Fábio, <br>Gerente de Projetos</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            5 <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="font-weight-bold" style="font-size: 18px">Crescimento Organizado e Eficiente</p>
+                            <p class="font-weight-bold" style="font-size: 15px;">Eu tinha um pequeno negócio, mas não conseguia fazê-lo crescer. A Carreira+ me ensinou técnicas de marketing e vendas, me ajudou a criar uma marca forte e a expandir meus negócios para novos mercados.  </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row d-flex justify-content-around align-items-center" style="padding-top: 5rem;">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="card" style="width: 18rem; height: 27rem;">
+                    <div class="card-header">
+                        <p class="font-weight-bold" style="font-size: 20px;">Laura Mendes, Desenvolvedora Web</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            5 <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="font-weight-bold" style="font-size: 18px">Conquistei meu espaço no mercado!</p>
+                            <p class="font-weight-bold" style="font-size: 15px;">A Carreira+ me ajudou a criar um portfólio incrível e a me preparar para entrevistas técnicas. Graças a eles, consegui fundar uma empresa dos meus sonhos e ser uma das líderes do mercado. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                <div class="card" style="width: 18rem; height: 27rem;">
+                    <div class="card-header">
+                        <p class="font-weight-bold" style="font-size: 20px;">Pedro Almeida, Gerente de Vendas</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            5 <i class="fa-solid fa-star"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="font-weight-bold" style="font-size: 18px">Evolução profissional garantida!</p>
+                            <p class="font-weight-bold" style="font-size: 15px;">Com a Carreira+, aprendi a liderar minha equipe com mais eficiência e a alcançar resultados incríveis. Recomendo a todos que querem crescer na carreira!</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-7" style="padding-top: 6rem;">
+            <p class="font-weight-bold" style="font-size: x-large; color: rgb(59, 59, 209); font-size: 30px;">Carreira+</p>
+            <p style="font-size: 20px;">Consultoria Profissional</p>
+            <p style="font-size: 15px">Foco em ajudar pessoas a organizarem suas empresas</p>
+          </div>
+          <div class="col-5" style="padding-top: 6rem;">
+            <i class="fa-brands fa-facebook fa-3x" style="color: blue;"></i>
+            <i class="fa-brands fa-instagram fa-3x" style="padding-left: 0.8rem;"></i>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" style="padding-top: 3rem; height: 5rem;">
+            <a style="font-size: 16px;" href="privacidade.html">Política de Privacidade</a>
+            <p style="font-size: 18px;">2025. Todos os direitos reservados</p>
+        </div>
+      </div>
+
+</body>
+</html>

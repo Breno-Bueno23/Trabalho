@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreira+</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <style>
+        * {
+            font-family: "Poppins", system-ui;
+        }
+
+        a {
+          color: black;
+        }
+
+        .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(59, 59, 209);
+        text-decoration-thickness: 3px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand font-weight-bold" style="font-size: x-large; color: rgb(59, 59, 209)" href="index.html">Carreira+</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link font-weight-bold" style="font-size: larger;" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle font-weight-bold" style="font-size: larger;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Navegação
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="form.html">Agendar Reunião</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="depo.html">Depoimentos</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7" style="height: 41rem; padding-top: 7rem;">
+            <h1 class="font-weight-bold" style="font-size: 3.2rem;">Nossos <span class="text-primary">experientes especialistas te ajudam a planejar, organizar e trilhar</span> o caminho para o sucesso profissional</h1>
+          </div>
+          <div class="col-12 col-md-5" style="padding-top: 9rem;">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Como você quer ser chamado?</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ex: Breno">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">A quanto tempo você criou sua a empresa?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option value="" disabled selected>Selecione...</option>
+                  <option>1 mes</option>
+                  <option>5 meses</option>
+                  <option>10 meses</option>
+                  <option>1 ano</option>
+                  <option>2 anos</option>
+                  <option>3 ou mais anos</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Como você descobriu a gente?</label>
+                <textarea class="form-control" style="resize: none;" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div style="display: flex; justify-content: center;">
+                <a class="btn btn-primary btn-lg" style="width: 14rem; height: 3.3rem; display: flex; align-items: center; justify-content: center;" href="form.html" role="button">Continuar</a>
+            </div>
+            </form>
+          </div>
+        </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 text-center" style="height: 16rem; padding-top: 5rem;">
+                <h1 class="font-weight-bold" style="font-size: 2.5rem;">Objetivos das pessoas que nos procuram:</h1>
+            </div>
+            <div class="col-12 text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 class="font-weight-bold" style="font-size: 2.5rem;"><span class="text-primary">Clareza,</span><br>organizar e entender os processos.</h1>
+                        <br>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="font-weight-bold" style="font-size: 2.5rem;"><span class="text-primary">Expansão,</span><br>estratégias de crescimento para a sua empresa.</h1>
+                        <br>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="font-weight-bold" style="font-size: 2.5rem;"><span class="text-primary">Rentabilidade,</span><br>despesas, custos e preços.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-12 text-center" style="height: 21rem; padding-top: 12rem;">
+              <h1 class="font-weight-bold" style="font-size: 2.5rem;">Fatores para sua empresa chegar ao sucesso:</h1>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="text-center">
+                  <i class="fa-regular fa-clipboard fa-5x" style="padding-top: 4rem;"></i>
+                  <p style="padding-top: 1.6rem; font-size: 25px;">Ajudamos empresas a definir objetivos <span class="text-primary">específicos, mensuráveis, alcançáveis, relevantes</span> e com prazo definido.</p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="text-center">
+                  <i class="fa-regular fa-handshake fa-5x" style="padding-top: 4rem;"></i>
+                  <p style="padding-top: 1.6rem; font-size: 25px;">Alianças estratégicas: construindo <span class="text-primary">pontes de confiança</span> para um crescimento <span class="text-primary">mútuo e sustentável</span></p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="text-center">
+                  <i class="fa-regular fa-circle-check fa-5x" style="padding-top: 4rem;"></i>
+                  <p style="padding-top: 1.6rem; font-size: 25px;">Definimos objetivos alcançáveis e <span class="text-primary">celebramos cada vitória,</span> impulsionando o <span class="text-primary">progresso contínuo.</span></p>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="text-center">
+                  <i class="fa-regular fa-face-smile fa-5x" style="padding-top: 4rem;"></i>
+                  <p style="padding-top: 1.6rem; font-size: 25px;">Cultivamos um ambiente onde os desafios são vistos como <span class="text-primary">oportunidades de crescimento.</span></p>
+              </div>
+          </div>
+          <div class="col-12 text-center" style="height: 33rem; padding-top: 9rem;">
+              <h1 class="font-weight-bold" style="font-size: 2.2rem;">Quer fazer sua empresa chegar ao topo?<br>Você está no lugar certo.</h1>
+              <div style="display: flex; justify-content: center; padding-top: 1rem;">
+                <a class="btn btn-primary btn-lg" style="width: 14rem; height: 3.3rem; display: flex; align-items: center; justify-content: center;" href="form.html" role="button">Agendar Reunião</a>
+            </div>
+          </div>
+          <div class="col-12 text-center" style="height: 33rem;">
+            <h1 class="font-weight-bold" style="font-size: 2.2rem;">Está curioso para saber os depoimentos das pessoas que nos procuraram?<br>Clique no botão abaixo e descubra.</h1>
+            <div style="display: flex; justify-content: center; padding-top: 1rem;">
+              <a class="btn btn-primary btn-lg" style="width: 14rem; height: 3.3rem; display: flex; align-items: center; justify-content: center;" href="depo.html" role="button">Ver depoimentos</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-7" style="padding-top: 6rem;">
+        <p class="font-weight-bold" style="font-size: x-large; color: rgb(59, 59, 209); font-size: 30px;">Carreira+</p>
+        <p style="font-size: 20px;">Consultoria Profissional</p>
+        <p style="font-size: 15px">Foco em ajudar pessoas a organizarem suas empresas</p>
+      </div>
+      <div class="col-5" style="padding-top: 6rem;">
+        <i class="fa-brands fa-facebook fa-3x" style="color: blue;"></i>
+        <i class="fa-brands fa-instagram fa-3x" style="padding-left: 0.8rem;"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center" style="padding-top: 3rem; height: 5rem;">
+        <a style="font-size: 16px;" href="privacidade.html">Política de Privacidade</a>
+        <p style="font-size: 18px;">2025. Todos os direitos reservados</p>
+    </div>
+  </div>
+</body>
+</html>
